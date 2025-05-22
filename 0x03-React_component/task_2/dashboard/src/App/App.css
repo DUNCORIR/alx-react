@@ -1,0 +1,48 @@
+/* App.css */
+
+body, html, #root {
+  height: 100%;
+  margin: 0;
+}
+
+.App {
+  display: flex;
+  flex-direction: column;
+  min-height: 100vh;
+}
+
+.App main {
+  flex: 1;
+}
+
+/* App.css */
+
+.header {
+  display: flex;
+  align-items: center;
+  gap: 20px;
+  padding: 10px;
+}
+
+.header h1 {
+  margin: 0;
+}
+
+.notifications {
+  background-color: #fefefe;
+  padding: 10px;
+  border-bottom: 1px solid #ddd;
+}
+
+.login {
+  padding: 20px;
+  font-size: 1.2rem;
+}
+
+.footer {
+  text-align: center;
+  padding: 1rem;
+  margin-top: auto; /* push footer down */
+  border-top: 1px solid #ccc;
+  background-color: #f5f5f5;
+}
