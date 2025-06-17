@@ -10,8 +10,13 @@
     "deploy": "gh-pages -d dist"
   },
   "dependencies": {
+    "fetch-mock": "^12.5.2",
+    "node-fetch": "^3.3.2",
     "react": "^19.1.0",
-    "react-dom": "^19.1.0"
+    "react-dom": "^19.1.0",
+    "redux": "^5.0.1",
+    "redux-mock-store": "^1.5.5",
+    "redux-thunk": "^3.1.0"
   },
   "devDependencies": {
     "@babel/core": "^7.27.1",
