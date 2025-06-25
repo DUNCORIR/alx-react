@@ -8,7 +8,7 @@ import thunk from 'redux-thunk';  // Import the Thunk middleware
 import rootReducer from './reducers/rootReducer';
 
 // Configure the Redux store with the Thunk
-const store = configureStore({
+export const store = configureStore({
   reducer: rootReducer,
   middleware: (getDefaultMiddleware) => getDefaultMiddleware().concat(thunk),
   // For Redux DevTools support
